@@ -1,0 +1,181 @@
+body {
+	background-image: url("dark-honeycomb.png");
+	font-family: Avenir Black;
+}
+
+.wrapper {
+	background-color: white;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	box-shadow:  0 0 10px  rgba(0,0,0,0.6);		
+}
+
+header {
+	height: 100px;
+	background-color: rgb(184, 203, 33);
+	/* max-width: 1024px;  */
+	/* margin: 0 auto;     */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 40px;
+}
+
+h1:before {
+	content: "\2E19";
+	padding-right: 5px
+}
+
+.logo img {
+	height: 70px;
+}
+nav a {
+	color: black;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+nav a:last-child {
+	padding-right: 0;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main {
+	display: flex;
+	padding: 40px;
+	
+}
+
+main a {
+	padding: 10px;
+	background-color: rgb(184, 203, 33);
+	color: white;
+	text-decoration: none;
+	
+}
+
+/*
+main section :not(a){
+	text-align: justify;
+}
+*/
+
+main p {
+	color: black;
+	font-size: 10pt;
+}
+
+section div {
+	text-align:right;
+}
+
+section img {
+	height: 200px;	
+}
+
+section h1, h2 {
+	color: rgb(184, 203, 33);
+	
+}
+/*
+h1:before{
+    content: url("leaf.png");
+	height: 1px;
+    padding-right: 5px;
+}
+*/
+
+.leftside {
+	border-right: 2px solid;
+	border-right-color: #edf0f4;
+	margin-right: 20px;
+}
+
+
+.leftside a {
+	margin: 10px;
+}
+
+.rightside img {
+	float: left;
+	margin: 5px;
+}
+
+.rightside ul {
+	color: black;
+	font-size: 10pt;
+}
+
+.contacts ul  {
+	list-style: none;
+	padding: 0;
+	color: rgb(184, 203, 33);
+	
+}
+.contacts {
+	margin-right: 10px;
+}
+
+.contacts li:nth-child(1):before {
+	content: "\0260F";
+    color: black;
+    padding-right: 10px;
+}
+
+.contacts li:nth-child(2):before {
+	content: "\02709";
+    color: black;
+    padding-right: 10px;
+}
+
+.contacts li:nth-child(3):before {
+	content: "\02656";
+    color: black;
+    padding-right: 10px;
+}
+
+.contacts input:not(.button), .contacts textarea {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	resize: none;
+	margin-bottom: 10px;
+}
+
+.map img {
+	border: 1px solid black;
+	width: 100%;
+	height: 100%;
+	display: cover;
+	margin-left: 10px;
+	
+}
+
+.button {
+	display: inline-block; 
+	border: 0;
+	background-color: rgb(184, 203, 33);
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+	
+}
+
+.button:hover{
+	text-decoration: none;
+}
+footer{
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+}
+
+
+
+
+
